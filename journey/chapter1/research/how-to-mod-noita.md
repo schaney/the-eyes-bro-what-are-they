@@ -17,3 +17,5 @@ herringbone wang tiles. interesting. if you're getting into noita you may have h
 #### so, what is a tile?
 
 the noita world is composed of tiles, basically a set puzzle pieces that you can randomly select. instead of laying these out on a grid, we have variable-sized tiles that get packed together. cool. fix this later, we don't understand quite yet.
+
+#### pixel scene
