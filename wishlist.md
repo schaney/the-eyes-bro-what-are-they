@@ -1,0 +1,1 @@
+* script that sets up my tmux with titles and stuff. i think i want multiple emacs open and seeing `emacsclient` for multiple tabs sucks. rename them like `story` `research` `term` `noita` or something. have that be `make tmux`

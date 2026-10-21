@@ -21,4 +21,4 @@ if you're reading along in the commit log, let me say welcome! this is my beginn
 
 hm. do i fix the story first, or start learning? big decision. i think i should clean my room, first. let's go make that menu in the main README.md. also this page should have a more meaningful title. or maybe that link doesn't take you here?
 
-either the way the menu should exist. brb. okay we start here because i have the markdown previou open and i just want to click back to main. let's call it the navigation section. okay, actually brb.
+either the way the menu should exist. brb. okay we start here because i have the markdown preview open and i just want to click back to main. let's call it the navigation section. okay, actually brb.
