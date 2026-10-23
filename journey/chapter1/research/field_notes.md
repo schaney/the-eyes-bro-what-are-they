@@ -50,3 +50,11 @@ let's look in `$NOTIA_HOME/data`
 okay i couldn't help myself. i'm looking in `$NOTIA_SAVE_DIR/save00/stats`.  wtf is `_stats.salakieli`?
 
 okay, this seems useful: https://noita.wiki.gg/wiki/Technical:_File_Formats
+
+---
+
+my wife thinks this is a good and cool idea, so it's obviously a good and cool idea.
+
+there are many directions to take, but i think we must understand the gods. fortunately, they are just very smart and cool humans that exist in the world. let's use that.
+
+i've got a lot of ideas, but first we continue to get a lay of the land. also i have some things to build. hmmm.
