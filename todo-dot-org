@@ -29,13 +29,17 @@ why hello there @NollaGames,
 
 well met.
 
-i am playing your game in, perhaps, an unintended way. i would very much like to
-solve the eye puzzle and the simplest solution, of course, would be to inspect
-the source code!
+i am playing your game in, perhaps, an unintended way. i seek to understand this
+wonderful world i find myself in. i'm most curious about the eyes. the simplest
+and most obvious path before me is to simply ask to inspect the source code.
+
+some context:
+
+i consider this a part of the game.
 
 from my perspective, you are the gods! the very same gods we anger in-game. and
-i am, of course, a simple wizard. i am embarking on a quest to understand the
-eye puzzle, hopefully the name of my repository will make that apparent to you.
+i am, of course, a wizard. a wizard embarking on a quest to solve the eye
+puzzle. solo. for fun :)
 
 you obviously need not respond at all. you are, after all, the gods.
 
@@ -43,9 +47,9 @@ you may choose to ignore me, you may choose to observe me, you may choose to do
 unfathomable god things. that is for you to decide.
 
 i would like to share the fact that i do not intend to break copyright or steal
-trade secrets or any such nonsense. i am no lawyer, nor do i need one, because
-i'm a wizard! i will read what is publicly available and abide by any rules you
-wish to communicate to me.
+trade secrets or any such nonsense. i am no lawyer, nor do i want one. i am a
+wizard! i will read what is publicly available and abide by any rules you wish
+to communicate to me.
 
 your game is a masterpiece and i admire it greatly! i am not sure if my skillset
 is up to this task or not, but that is part of the fun!
@@ -53,9 +57,11 @@ is up to this task or not, but that is part of the fun!
 for now, i have much reading to do! and a very interesting talk from GDC 2019 to
 listen to :)
 
-oh yes, because gods are fickle and i have not actually asked the question:
+oh yes, because gods are fickle and i have not actually asked the question,
+please allow me to ask.
 
-o ye mighty gods, hear me! *pause for dramatic effect*
+o ye mighty gods, hear me! *pause for dramatic effect* (maybe a lightning
+strike)
 
 ahem. can i like... look at your source code? lol
 
@@ -74,3 +80,5 @@ they do not appreciate it + legal trouble? i am not a lawyer, but i am, at the m
 - make /tinfoil a proper place
 
 - i want `make nav`. maybe take the output of `tree` and generate/insert it from that. could work.
+
+- commit hook to add entry #s because it's annoying. this could be top priority type shit, ngl
