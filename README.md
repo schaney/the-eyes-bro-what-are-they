@@ -3,7 +3,7 @@ _t h e   n a v i g a t i o n   s e c t i o n_
 
 **\{MAIN MENU\}**
 
-\[[journey](journey/geocities.md)\] 
+\[[journey](journey/geocities.md)\]
 
 \[[todo-dot-org](todo-dot-org)\]
 
@@ -11,7 +11,7 @@ _t h e   n a v i g a t i o n   s e c t i o n_
 
 ## `noita`
 
-noita has been described as the greatest single player game of all time. i agree. let's play it differently for a while. i'm going to learn how to mod the game in order to solve the eye puzzle. wish me luck.
+noita has been described as the greatest single player game of all time. i agree. let's play it differently for a while. i'm going try to learn exactly how game the game works in order to solve the eye puzzle. maybe there are more entrances to this game than we think. wish me luck.
 
 hey look, something just appeared above us! i enjoy that.
 
