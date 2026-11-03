@@ -1,0 +1,15 @@
+#!/bin/sh
+
+commit_file=$1
+msg=$(cat $commit_file)
+
+prev=$(echo "$(git log -1 --pretty=%B)" | \
+         cut -d':' -f1 | \
+         cut -d' ' -f2 | \
+         awk '$0*=1')
+
+next=$(printf "%06d\n" $((prev + 1)))
+
+echo "entry $next: $msg" > $commit_file
+
+exit 0

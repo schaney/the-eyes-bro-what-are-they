@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+git_dir=$dir/../.git
+mkdir -p $git_dir/hooks
+ln -s  $dir/commit-msg $git_dir/hooks/commit-msg

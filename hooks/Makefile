@@ -1,0 +1,2 @@
+it-so:
+	./install

@@ -4,6 +4,43 @@ you find yourself.
 - actually learn org mode?
 might be funnier if i didn't
 
+- limit this file to 80 cols. can we put a hint or whatever to tell emacs to
+load a major mode?
+
+================================================================================
+          _   _ _ __   __ _  __ _  | |__  _   _ _ __   __ _  __ _
+         | | | | '_ \ / _` |/ _` | | '_ \| | | | '_ \ / _` |/ _` |
+         | |_| | | | | (_| | (_| | | |_) | |_| | | | | (_| | (_| |
+          \__,_|_| |_|\__, |\__,_| |_.__/ \__,_|_| |_|\__, |\__,_|
+                      |___/                           |___/
+--------------------------------------------------------------------------------
+
+researching is kinda boring. let's unga bunga a bit first. everything is an
+entity, right? then surely the eyes are either an entity or a component of
+another entity. let's smash some stuff and see if we can figure out what entity
+(or entities) is responsible for the lil duders.
+
+proof of concept:
+
+- read the state of the noita world.
+- once we can do this, load a seed with known eye puzzle location
+- loop through all entites in the game, disabling components(?), regen world and
+check if eyes are there.
+  - can binary search this if we index all of the components first
+  - multiple entities could interact to spawn the eyes! so toggling each
+  component individually is a good thing to do regardless.
+- do this stuff fast for some value of fast
+
+open questions
+- can we just modify shit in data.wak directly and then reload the game?
+- skip steam, run directly? linux makes this trickier, we need proton bullshit
+- cli options for noita.exe. is there a `--help`?
+- i think loading a specific seed is something that needs a mod. or we figure
+out how to hardcode it. we should be able to set up local modding stuff pretty
+easily.
+
+================================================================================
+
 - disable inbound comms, this is a single player game
 
 - make rules.md
