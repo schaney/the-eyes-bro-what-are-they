@@ -1,9 +1,0 @@
-#!/bin/sh
-
-msg=$(cat $1)
-
-prev_msg=$(git log -1 --pretty=%B)
-
-echo "prev msg: $prev_msg"
-
-exit 1
