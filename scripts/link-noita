@@ -2,4 +2,5 @@
 
 dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-ln -s $NOITA_HOME $dir/../noita
+ln -f -s $NOITA_HOME $dir/../noita
+ln -f -s $NOITA_SAVE_DIR $dir/../noita_saves

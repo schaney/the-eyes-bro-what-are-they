@@ -44,3 +44,9 @@ let's go read https://noita.wiki.gg/wiki/World_generation
 so tiles are rectangles that we make a herringbone pattern with. and pixel scenes are images where pixels represent materials.
 
 let's look in `$NOTIA_HOME/data`
+
+---
+
+okay i couldn't help myself. i'm looking in `$NOTIA_SAVE_DIR/save00/stats`.  wtf is `_stats.salakieli`?
+
+okay, this seems useful: https://noita.wiki.gg/wiki/Technical:_File_Formats
