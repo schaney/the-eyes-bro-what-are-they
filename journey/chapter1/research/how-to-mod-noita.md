@@ -8,8 +8,12 @@ try to understand noita worldgen and noita modding. maybe we can do something co
 
 * https://noita.wiki.gg/wiki/Modding - probably good. so there's a modding api. i might have to use vscode. gross. let's start by unpacking data.wak. we love spreadsheets! `-wizard_unpak` hehe cool.
 
-oh hey, noita has a tools_modding/READ_ME_FIRST.txt. we also love to read. also game recognize game.
+## understanding noita
 
-let's make a `NOITA_HOME` env var in bashrc. we might need to use that a lot. if you have noita installed and `NOTIA_HOME` set, i can write down clickable links here. that's fun!
+* https://nothings.org/gamedev/herringbone/
 
-oh shit! there's a noita readme. cool! let's make makefile in the root. i want `make link` to make a symlink in here to `NOITA_HOME` for easier exploration in there. gogogo!
+herringbone wang tiles. interesting. if you're getting into noita you may have heard of [formations](https://noita.wiki.gg/wiki/Formation) which are just special tiles that can contain rewards.
+
+#### so, what is a tile?
+
+the noita world is composed of tiles, basically a set puzzle pieces that you can randomly select. instead of laying these out on a grid, we have variable-sized tiles that get packed together. cool. fix this later, we don't understand quite yet.
