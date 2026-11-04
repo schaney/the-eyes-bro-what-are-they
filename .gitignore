@@ -1,0 +1,14 @@
+# noita shit
+noita
+noita_saves
+logger.txt
+
+# emacs
+*~
+\#*\#
+.\#*
+
+# misc
+*.log
+*.tmp
+*.temp

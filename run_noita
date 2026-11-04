@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd "$NOITA_HOME" || exit 1
+
+tmpfile=$(mktemp)
+trap 'rm -f "$tmpfile"' EXIT
+
+cat <<EOT > $tmpfile
+[umu]
+game_id = "$NOITA_APP_ID"
+prefix = "$HOME/.local/share/umu/prefixes/noita"
+proton = "$HOME/.local/share/Steam/compatibilitytools.d/UMU-Proton-10.0-4"
+exe = "$NOITA_HOME/noita.exe"
+store = "steam"
+launch_args = ["--help"]
+EOT
+
+
+umu-run --config $tmpfile

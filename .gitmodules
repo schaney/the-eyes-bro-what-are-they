@@ -1,0 +1,3 @@
+[submodule "wpak"]
+	path = wpak
+	url = https://github.com/zatherz/wpak
