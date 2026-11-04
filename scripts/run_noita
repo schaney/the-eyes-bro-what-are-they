@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd "$NOITA_HOME" || exit 1
+pushd "$NOITA_HOME"
 
 tmpfile=$(mktemp)
 trap 'rm -f "$tmpfile"' EXIT
@@ -12,8 +12,10 @@ prefix = "$HOME/.local/share/umu/prefixes/noita"
 proton = "$HOME/.local/share/Steam/compatibilitytools.d/UMU-Proton-10.0-4"
 exe = "$NOITA_HOME/noita.exe"
 store = "steam"
-launch_args = ["--help"]
+launch_args = ["-wizard_unpack"]
 EOT
 
 
 umu-run --config $tmpfile
+
+popd

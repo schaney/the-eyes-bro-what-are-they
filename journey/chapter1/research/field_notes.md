@@ -82,3 +82,13 @@ grep: ./noita/data/audio/Desktop/music08.bank: binary file matches
 ```
 
 maybe some breadcrumbs here. anyway, i've got a daily to play <3
+
+---
+
+hello friends! we've made some progress. we can launch noita directly using `umu-run` which is cool. i found a utility to pack/unpack `.wak` files writtin by a fellow nerd named `@zatherz`. we yoinked his shit and stuffed it in here as a submodule. thank you my dude!
+
+unpacking noita's `data.wak` and repacking with this tool doesn't give the same `md5sum`. buuuuut, if we list the files in the `.wak`, they are the same, just in a different order.
+
+`diff <(cat gamepak| sort -u) <(cat mypak | sort -u)` says the file manifest is the same. so fuck it we ball.
+
+what do i change first? the color of something to make it very obvious probably? lemme go look in the data and decide.

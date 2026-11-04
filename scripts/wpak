@@ -1,0 +1,20 @@
+#!/bin/bash
+# wrapper script for https://github.com/zatherz/wpak
+
+dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+out=$dir/../data
+data_wak=$NOITA_HOME/data/data.wak
+
+pushd $dir/../wpak
+
+case "$1" in
+  pack)
+    luajit wpak.lua pack $out/data $dir/../data.wak
+    ;;
+  unpack)
+    luajit wpak.lua unpack $data_wak $out
+    ;;
+esac
+
+popd

@@ -2,6 +2,10 @@
 noita
 noita_saves
 logger.txt
+data
+data/*
+data.wak
+sacred
 
 # emacs
 *~
