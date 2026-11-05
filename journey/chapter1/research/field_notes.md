@@ -92,3 +92,9 @@ unpacking noita's `data.wak` and repacking with this tool doesn't give the same 
 `diff <(cat gamepak| sort -u) <(cat mypak | sort -u)` says the file manifest is the same. so fuck it we ball.
 
 what do i change first? the color of something to make it very obvious probably? lemme go look in the data and decide.
+
+---
+
+s'gooooo dude. bask in the glory of my purple hp:
+
+![purple motherfuckin hp boys](purple-hp.png)
