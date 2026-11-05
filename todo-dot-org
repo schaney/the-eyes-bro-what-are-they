@@ -20,10 +20,13 @@ entity, right? then surely the eyes are either an entity or a component of
 another entity. let's smash some stuff and see if we can figure out what entity
 (or entities) is responsible for the lil duders.
 
-proof of concept:
+proof of concept
+================================================================================
+= read the state of the noita world. <=-=-=-=-=-=-=-- this is next             =
+================================================================================
 
-- read the state of the noita world.
 - once we can do this, load a seed with known eye puzzle location
+  - or change our spawn location? should be easy enough
 - loop through all entites in the game, disabling components(?), regen world and
 check if eyes are there.
   - can binary search this if we index all of the components first
@@ -33,11 +36,19 @@ check if eyes are there.
 
 open questions
 - can we just modify shit in data.wak directly and then reload the game?
+  - yes, absolutely! we can just unpack/repack data.wak and mess with whatever
+  we want to directly. we made our hp indicator purple, lol
 - skip steam, run directly? linux makes this trickier, we need proton bullshit
+  - also yes! we're using `umu-run`. a bit tricky to get set up, but we have a
+  launcher script in `scripts`. gotta make it do a bit more. was really sad
+  there is no `--help` on the main exe. haven't tried notia_dev.exe yet tho
 - cli options for noita.exe. is there a `--help`?
+  - check noita_dev.exe maybe? tried a few variations.
 - i think loading a specific seed is something that needs a mod. or we figure
 out how to hardcode it. we should be able to set up local modding stuff pretty
 easily.
+  - again, yes, we can pack/unpack data.wak and just launch the game. this is
+  good!
 
 ================================================================================
 
