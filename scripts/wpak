@@ -3,17 +3,22 @@
 
 dir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-out=$dir/../data
 data_wak=$NOITA_HOME/data/data.wak
 
 pushd $dir/../wpak
 
 case "$1" in
   pack)
-    luajit wpak.lua pack $out/data $dir/../data.wak
+    luajit wpak.lua pack $dir/../data $dir/../data.wak
     ;;
   unpack)
-    luajit wpak.lua unpack $data_wak $out
+    luajit wpak.lua unpack $data_wak $dir/../
+    ;;
+  list)
+    luajit wpak.lua list $dir/../data.wak
+    ;;
+  push)
+    cp $dir/../data.wak $dir/../noita/data/
     ;;
 esac
 

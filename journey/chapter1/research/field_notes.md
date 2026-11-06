@@ -98,3 +98,7 @@ what do i change first? the color of something to make it very obvious probably?
 s'gooooo dude. bask in the glory of my purple hp:
 
 ![purple motherfuckin hp boys](purple-hp.png)
+
+---
+
+okay, small amount of research. gotta read through this: https://github.com/pudy248/NoitaMapViewer and understand how the `.png_petri` files work. or also just read the [wiki](https://noita.wiki.gg/wiki/Technical:_File_Formats#*.png_petri) lol. really curious which bit of this loads the eyes. i should fork that project and fuck around fr fr.

@@ -9,3 +9,6 @@ pack:
 
 unpack:
 	scripts/wpak unpack
+
+list:
+	scripts/wpak list
